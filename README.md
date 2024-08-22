@@ -1,10 +1,12 @@
-##How to Install laravel
+How to Install laravel
 
 ```
-##Installation
+###Installation
 
 $ composer global require laravel/installer
 
 $ composer new Project-name
 it will create laravel latest version
+
+$ php artisan serve
 ```
