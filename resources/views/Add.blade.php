@@ -13,18 +13,18 @@
                     <div class="input-group mb-3">
                         <span class="input-group-text" id="basic-addon1">Name</span>
                         <input type="text" class="form-control" placeholder="Jhon Doe" aria-label="name" name="name"
-                            aria-describedby="basic-addon1">
+                            aria-describedby="basic-addon1" required>
                     </div>
                     <div class="input-group mb-3">
                         <span class="input-group-text" id="basic-addon1">Email</span>
                         <input type="text" class="form-control" placeholder="john.doe@gmail.com" aria-label="email"
-                            name="email" aria-describedby="basic-addon1">
+                            name="email" aria-describedby="basic-addon1" required>
                     </div>
                     <div class="row">
                         <div class="col-6">
                             <div class="input-group mb-3">
                                 <span class="input-group-text" id="basic-addon1">Gender</span>
-                                <select class="form-select" aria-label="Default select example">
+                                <select class="form-select" aria-label="Default select example" name="gender">
                                     <option selected>Select Gender</option>
                                     <option value="Male">Male</option>
                                     <option value="Female">Female</option>

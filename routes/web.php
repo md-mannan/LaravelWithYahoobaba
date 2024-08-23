@@ -12,4 +12,7 @@ Route::controller(StudentController::class)->group(function () {
     Route::post('insert', 'addStudent')->name('insert');
     Route::get('view/{id}', 'viewStudent')->name('view');
     Route::get('edit/{id}', 'editStudent')->name('edit');
+    Route::PUT('update/{id}', 'updateStudent')->name('update');
+    Route::get('delete/{id}', 'deleteStudent')->name('delete');
+    Route::get('deleteall', 'deleteAllStudent')->name('deleteAll');
 });

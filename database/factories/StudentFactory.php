@@ -17,7 +17,14 @@ class StudentFactory extends Factory
     public function definition(): array
     {
         return [
-            //
+
+            'name' => fake()->name(),
+            'email' => fake()->unique()->email(),
+            'gender' => fake()->randomElement(['Male', 'Female']),
+            'age' => fake()->numberBetween(18, 35),
+            'phone' => fake()->phoneNumber(),
+            'address' => fake()->address(),
+
         ];
     }
 }
